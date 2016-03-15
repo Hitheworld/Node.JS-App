@@ -1,0 +1,26 @@
+{
+  "name": "iFilm",
+  "authors": [
+    "ping <947508757@qq.com>"
+  ],
+  "description": "0.0.1",
+  "main": "iFilm movic",
+  "moduleType": [],
+  "keywords": [
+    "iFilm"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}

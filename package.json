@@ -1,0 +1,31 @@
+{
+  "name": "ifilm",
+  "version": "0.0.1",
+  "description": "ifilm movie",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "grunt": "^0.4.3",
+    "jade": "^1.11.0",
+    "moment": "^2.10.6",
+    "mongoose": "^4.2.8",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^2.1.0",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-nodemon": "^0.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ifilm",
+    "movie"
+  ],
+  "author": "Scott",
+  "license": "ISC"
+}
