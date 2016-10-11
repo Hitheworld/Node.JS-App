@@ -1,5 +1,7 @@
 ###Node.JS-App
 
+![Alt text](./docs/index.png)
+
 ###Node.JS服务器应用
 
 npm install 
