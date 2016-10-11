@@ -46,7 +46,7 @@ app.get("/",function(req,res){
 });
 
 // signup 注册
-app.psot("/user/signup", function(req, res){
+app.post("/user/signup", function(req, res){
 	var _user = req.body.user;
 	//  获取user， req.param("user")  (注意：param会先从路由里去拿，再去拿ajax data里的，最后再拿?userid里的)
 	//  /user/signup/:userid   req.params.userid
