@@ -17,7 +17,7 @@ app.use(express.static(path.join(__dirname,"public")));  //静态资源的获取
 app.locals.moment = require("moment");  //时间模式化
 app.listen(port);
 
-console.log("电影站地址"+port);
+console.log("电影站地址:127.0.0.1:3000"+port);
 /**
 * mongoose
 * 模式Schema(对字段和字段类型进行定义)、
