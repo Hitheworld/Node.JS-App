@@ -17,7 +17,18 @@ app.use(express.static(path.join(__dirname,"public")));  //静态资源的获取
 app.locals.moment = require("moment");  //时间模式化
 app.listen(port);
 
-console.log("电影站地址:127.0.0.1:3000"+port);
+//测试mongodb连接
+mongoose.connection.on('connected', function(){
+	console.log('连接成功！');
+});
+mongoose.connection.on('error', function(err){
+	console.log('连接错误: ' + err);
+});
+mongoose.connection.on('disconnected', function(){
+	console.log('连接断开!');
+});
+
+//console.log("电影站地址:localhost:"+port);
 /**
 * mongoose
 * 模式Schema(对字段和字段类型进行定义)、
