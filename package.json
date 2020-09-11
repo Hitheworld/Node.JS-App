@@ -10,7 +10,7 @@
     "grunt": "^0.4.3",
     "jade": "^1.11.0",
     "moment": "^2.10.6",
-    "mongoose": "^4.2.8",
+    "mongoose": "^5.10.4",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
